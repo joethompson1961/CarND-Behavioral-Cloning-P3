@@ -75,9 +75,9 @@ parser.add_argument(
 args = parser.parse_args()
 
 # Reading in training data log file
-#src_dir = '../simdata'
-src_dir = '../lessdata'
-#src_dir = '../data'
+#src_dir = 'C:/Udacity/SDCND/term1/resources/training-data/behavior-cloning/simdata'
+src_dir = 'C:/Udacity/SDCND/term1/resources/training-data/behavior-cloning/lessdata'
+#src_dir = 'C:/Udacity/SDCND/term1/resources/training-data/behavior-cloning/data'
 samples = []
 with open(src_dir + '/driving_log.csv') as csvfile:
     reader = csv.reader(csvfile)
